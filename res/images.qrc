@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>vector-illustration-of-fresh-red-apple-with-single-leaf-png_248312.jpg</file>
+        <file>emptyObject.png</file>
+    </qresource>
+</RCC>
