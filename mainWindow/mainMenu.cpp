@@ -1,5 +1,5 @@
-#include "mainMenu.h"
-#include "gameBoard.h"
+#include "mainMenu/mainMenu.h"
+#include "gameBoard/gameBoard.h"
 
 #include <QHBoxLayout>
 #include <QApplication>
