@@ -1,60 +1,23 @@
-# Inventory
-1. При запуске приложения первым открывается виджет "Main Menu". В 
+# Inventory 
 
-нём две кнопки: "New Game" и "Quit". 
+1. When starting the application, the "Main Menu" widget opens first. It has two buttons: "New Game" and "Quit". 
 
-2. Нажатие на кнопку "Quit" приводит к закрытию программы. 
+ 2. Pressing the "Quit" button closes the program. 
 
-3. Нажатие на кнопку "New Game" инициирует начало новой игры. 
+ 3. Pressing the "New Game" button initiates the start of a new game. 
 
-4. После нажатия на кнопку новая игра открывается доступ к виджету 
+ 4. After clicking on the new game button, access the "Game Board" widget is opened. 
 
-"Game Board". 
+ 5. On the playing field on the left is the widget QTableWidget - "Inventory", 3x3 in size, all cells of the inventory table are square. 
 
-6. На игровом поле слева расположен виджет QTableWidget - "Inventory", 
+6. On the playing field on the right is an item widget containing an item called "Object", which is the source for Drag'n'Drop'a to the Inventory cells. The apples in this widget are infinite, can be taken from the source and dragged into the inventory an unlimited number of times. 
 
-размерностью 3х3, все ячейки таблицы инвентаря квадратной формы. 
+7. When dragging an apple from the source to the inventory, it appears in the inventory cell into which the drag was made. It is also possible to drag an item inside inventory cells. Inside the inventory, items are dragged by the whole pack,  for example, if there were 3 apples in the cell, all three are dragged. 
 
-7. На игровом поле справа расположен виджет предмета, содержащий предмет 
+8. When you re-drag an apple from the source to the inventory to the cell where there is already an apple, the number of apples in this cell is increased by 1. 
 
-"Object", являющийся источником для Drag'n'Drop'a в ячейки Инвентаря. 
+To the right below the apple in the inventory cell is a number indicating the number of apples in the cell. For example, there was one apple, the number 1, after dragging there were two apples, the number two became. 
 
-Яблоки в этом виджете бесконечные, можно брать из источника и 
+9. When you right-click on an inventory cell with an apple, the number of apples in the cell decreases. If there was one apple, then the picture of the apple disappears. If there are more than one apples, the number should decrease by one. 
 
-перетаскивать в инвентарь неограниченное количество раз. 
-
-8. При перетаскивании яблока из источника в инвентарь оно появляется в 
-
-той ячейке инвентаря, в которую осуществлено перетаскивание. 
-
-Так же возможно перетаскивание предмета внутри ячеек инвентаря. Внутри 
-
-инвентаря предметы перетаскиваются всей пачкой, 
-
-т.е. к примеру, если в ячейке было 3 яблока, перетаскиваются все три. 
-
-9. При повторном перетаскивании яблока из источника в инвентарь в ту 
-
-ячейку, где уже есть яблоко, количество яблок в этой ячейке 
-
-увеличивается на 1. 
-
-Справа снизу от яблока в ячейке инвентаря находится цифра, указывающая 
-
-на количество яблок в ячейке. К примеру, было одно яблоко, цифра 1, 
-
-после перетаскивания стало два яблока, стала цифра два. 
-
-10. При клике правой кнопкой мыши по ячейке инвентаря с яблоком 
-
-происходит уменьшение количества яблок в ячейке. Если там было одно 
-
-яблоко, то картинка яблока 
-
-исчезает. Если яблок больше одного, цифра должна уменьшится на единицу. 
-
-11. Над виджетами "Inventory" и "Object" находится кнопка "Main 
-
-Menu". При нажатии на кнопку игровое поле блокируется и отображается 
-
-виджет, описаный в п. 1. 
+10. Above the "Inventory" and "Object" widgets is the "Main Menu" button. When the button is pressed, the playing field is blocked and the widget described in paragraph 1 is displayed.
