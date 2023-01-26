@@ -1,4 +1,4 @@
-#include "mainMenu/mainMenu.h"
+#include "mainMenu.h"
 #include "gameBoard/gameBoard.h"
 
 #include <QHBoxLayout>
