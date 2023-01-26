@@ -1,4 +1,6 @@
 # Inventory
+[![Watch the video]](https://disk.yandex.ru/i/RNyvVKemyCWbL)
+
 1. При запуске приложения первым открывается виджет "Main Menu". В 
 
 нём две кнопки: "New Game" и "Quit". 
