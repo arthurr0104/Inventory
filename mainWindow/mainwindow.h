@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "gameBoard.h"
+#include "gameBoard/gameBoard.h"
 #include "mainMenu.h"
 
 #include <QWidget>
